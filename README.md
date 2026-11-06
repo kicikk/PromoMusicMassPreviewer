@@ -13,9 +13,9 @@ with global hotkeys: **YES** moves the file to `selected`, **NO** moves it to
 `to_delete`, and the next track starts. With Spotify Premium you can preview an
 artist's whole discography, an album or a playlist the same way.
 
-**[Download Promo_Music_Mass_Previewer_v20261106_b5.9.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b5.9/Promo_Music_Mass_Previewer_v20261106_b5.9.exe)**
+**[Download Promo_Music_Mass_Previewer_v20261106_b6.0.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b6.0/Promo_Music_Mass_Previewer_v20261106_b6.0.exe)**
 
-Current version: **v20261106_b5.9** (2026-11-06) · Windows 10/11, 64-bit, a single `.exe`,
+Current version: **v20261106_b6.0** (2026-11-06) · Windows 10/11, 64-bit, a single `.exe`,
 no installation · [What's new](CHANGELOG.md) · [All releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
 ## Features
@@ -39,7 +39,7 @@ Formats: mp3, wav, flac, ogg, aiff, m4a.
 
 ## Getting started
 
-1. Download `Promo_Music_Mass_Previewer_v20261106_b5.9.exe` from
+1. Download `Promo_Music_Mass_Previewer_v20261106_b6.0.exe` from
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) next to the exe, so the folder must be writable
@@ -94,8 +94,8 @@ dollars a year), so Windows may react to it:
 
 ## Versions
 
-The version number is the build date plus a build number, e.g. `v20261106_b5.9`. The
-same number appears in the file name (`Promo_Music_Mass_Previewer_v20261106_b5.9.exe`),
+The version number is the build date plus a build number, e.g. `v20261106_b6.0`. The
+same number appears in the file name (`Promo_Music_Mass_Previewer_v20261106_b6.0.exe`),
 at the bottom of the panel, in the exe's properties (Details tab) and in the name of
 the release here, so you can always tell which one you have.
 
@@ -109,9 +109,9 @@ każdym dropem), a Ty oceniasz globalnymi skrótami: **YES** przenosi plik do
 `selected`, **NO** do `to_delete`. Z kontem Spotify Premium tak samo przesłuchasz
 całą dyskografię artysty, album albo playlistę.
 
-**[Pobierz Promo_Music_Mass_Previewer_v20261106_b5.9.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b5.9/Promo_Music_Mass_Previewer_v20261106_b5.9.exe)**
+**[Pobierz Promo_Music_Mass_Previewer_v20261106_b6.0.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b6.0/Promo_Music_Mass_Previewer_v20261106_b6.0.exe)**
 
-Aktualna wersja: **v20261106_b5.9** (2026-11-06) · Windows 10/11, 64-bit, jeden plik `.exe`,
+Aktualna wersja: **v20261106_b6.0** (2026-11-06) · Windows 10/11, 64-bit, jeden plik `.exe`,
 bez instalacji · [Co nowego](CHANGELOG.md) · [Wszystkie wydania](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
 **Pierwsze uruchomienie:** włóż `.exe` do osobnego folderu (np.

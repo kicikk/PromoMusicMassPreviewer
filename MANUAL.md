@@ -12,7 +12,7 @@ own thing and react with global hotkeys or from the panel.
 
 Windows 10/11, 64-bit.
 
-1. Download `Promo_Music_Mass_Previewer_v20261106_b5.9.exe` from
+1. Download `Promo_Music_Mass_Previewer_v20261106_b6.0.exe` from
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) and a log file next to the exe, so the folder
@@ -49,7 +49,7 @@ default).
 Download the new exe from
 [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest),
 put it in the same folder as the old one and delete the old one (the version is part
-of the file name, e.g. `Promo_Music_Mass_Previewer_v20261106_b5.9.exe`, so they don't
+of the file name, e.g. `Promo_Music_Mass_Previewer_v20261106_b6.0.exe`, so they don't
 overwrite each other). Settings, ratings and the activation stay. If you made a
 shortcut, point it at the new file. Your version is also shown at the bottom of the
 panel; the list of changes is in [CHANGELOG.md](CHANGELOG.md).
@@ -368,7 +368,7 @@ but with no completeness guarantee and a cap of 1000 tracks per artist.
 
 ---
 
-The version is shown at the bottom of the panel (e.g. `v20261106_b5.9`); the list of
+The version is shown at the bottom of the panel (e.g. `v20261106_b6.0`); the list of
 changes is in [CHANGELOG.md](CHANGELOG.md).
 
 Developed by Maciej Kiciński (kicikk), powered by [proggcast.pl](https://www.proggcast.pl)
