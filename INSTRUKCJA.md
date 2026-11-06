@@ -12,8 +12,8 @@ globalnymi skrótami albo z panelu.
 
 Windows 10/11, 64-bit.
 
-1. Pobierz `Promo_Music_Mass_Previewer.exe` z
-   [Releases](https://github.com/kicikk/promo-music-mass-previewer-releases/releases/latest).
+1. Pobierz `Promo_Music_Mass_Previewer_v20261106_b5.9.exe` z
+   [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Włóż go do osobnego folderu, np. `Dokumenty\Promo Music Mass Previewer`. Program
    trzyma ustawienia (`config.json`) i plik logu obok `.exe`, więc folder musi być
    zapisywalny (nie `Program Files`).
@@ -47,9 +47,11 @@ domyślnie angielski).
 ### Aktualizacja
 
 Pobierz nowy `.exe` z
-[Releases](https://github.com/kicikk/promo-music-mass-previewer-releases/releases/latest)
-i podmień nim stary w tym samym folderze. Ustawienia, oceny i aktywacja zostają.
-Numer Twojej wersji widać na dole panelu (np. `v20261106_b5.8`), a listę zmian w
+[Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest),
+włóż go do tego samego folderu co stary, a stary usuń (wersja jest w nazwie pliku,
+np. `Promo_Music_Mass_Previewer_v20261106_b5.9.exe`, więc się nie nadpiszą). Ustawienia,
+oceny i aktywacja zostają. Jeśli masz skrót, wskaż w nim nowy plik.
+Numer Twojej wersji widać na dole panelu (np. `v20261106_b5.9`), a listę zmian w
 [CHANGELOG.md](CHANGELOG.md).
 
 ### Windows ostrzega przed .exe albo go blokuje
@@ -370,7 +372,7 @@ utworów na artystę.
 
 ---
 
-Wersja widoczna jest na dole panelu (np. `v20261106_b5.8`), lista zmian w
+Wersja widoczna jest na dole panelu (np. `v20261106_b5.9`), lista zmian w
 [CHANGELOG.md](CHANGELOG.md).
 
 Developed by Maciej Kiciński (kicikk), powered by [proggcast.pl](https://www.proggcast.pl)

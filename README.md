@@ -13,10 +13,10 @@ with global hotkeys: **YES** moves the file to `selected`, **NO** moves it to
 `to_delete`, and the next track starts. With Spotify Premium you can preview an
 artist's whole discography, an album or a playlist the same way.
 
-**[Download Promo_Music_Mass_Previewer.exe](https://github.com/kicikk/promo-music-mass-previewer-releases/releases/latest/download/Promo_Music_Mass_Previewer.exe)**
+**[Download Promo_Music_Mass_Previewer_v20261106_b5.9.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b5.9/Promo_Music_Mass_Previewer_v20261106_b5.9.exe)**
 
-Current version: **v20261106_b5.8** (2026-11-06) · Windows 10/11, 64-bit, a single `.exe`,
-no installation · [What's new](CHANGELOG.md) · [All releases](https://github.com/kicikk/promo-music-mass-previewer-releases/releases)
+Current version: **v20261106_b5.9** (2026-11-06) · Windows 10/11, 64-bit, a single `.exe`,
+no installation · [What's new](CHANGELOG.md) · [All releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
 ## Features
 
@@ -39,8 +39,8 @@ Formats: mp3, wav, flac, ogg, aiff, m4a.
 
 ## Getting started
 
-1. Download `Promo_Music_Mass_Previewer.exe` from
-   [Releases](https://github.com/kicikk/promo-music-mass-previewer-releases/releases/latest).
+1. Download `Promo_Music_Mass_Previewer_v20261106_b5.9.exe` from
+   [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) next to the exe, so the folder must be writable
    (not `Program Files`).
@@ -67,9 +67,11 @@ Good to know:
 
 ### Updating
 
-Download the new exe and replace the old one in the same folder. Settings, ratings
-and the activation stay. Your version is shown at the bottom of the panel; compare it
-with the current version above.
+Download the new exe, put it in the same folder as the old one and delete the old one
+(the version is part of the file name, so they don't overwrite each other). Settings,
+ratings and the activation stay. If you made a shortcut, point it at the new file.
+Your version is shown at the bottom of the panel; compare it with the current version
+above.
 
 ### Windows warns about the exe
 
@@ -92,10 +94,10 @@ dollars a year), so Windows may react to it:
 
 ## Versions
 
-The version number is the build date plus a build number, e.g. `v20261106_b5.8`. The
-same number appears at the bottom of the panel, in the exe's properties
-(Details tab) and in the name of the release here, so you can always tell which one
-you have.
+The version number is the build date plus a build number, e.g. `v20261106_b5.9`. The
+same number appears in the file name (`Promo_Music_Mass_Previewer_v20261106_b5.9.exe`),
+at the bottom of the panel, in the exe's properties (Details tab) and in the name of
+the release here, so you can always tell which one you have.
 
 ---
 
@@ -107,10 +109,10 @@ każdym dropem), a Ty oceniasz globalnymi skrótami: **YES** przenosi plik do
 `selected`, **NO** do `to_delete`. Z kontem Spotify Premium tak samo przesłuchasz
 całą dyskografię artysty, album albo playlistę.
 
-**[Pobierz Promo_Music_Mass_Previewer.exe](https://github.com/kicikk/promo-music-mass-previewer-releases/releases/latest/download/Promo_Music_Mass_Previewer.exe)**
+**[Pobierz Promo_Music_Mass_Previewer_v20261106_b5.9.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b5.9/Promo_Music_Mass_Previewer_v20261106_b5.9.exe)**
 
-Aktualna wersja: **v20261106_b5.8** (2026-11-06) · Windows 10/11, 64-bit, jeden plik `.exe`,
-bez instalacji · [Co nowego](CHANGELOG.md) · [Wszystkie wydania](https://github.com/kicikk/promo-music-mass-previewer-releases/releases)
+Aktualna wersja: **v20261106_b5.9** (2026-11-06) · Windows 10/11, 64-bit, jeden plik `.exe`,
+bez instalacji · [Co nowego](CHANGELOG.md) · [Wszystkie wydania](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
 **Pierwsze uruchomienie:** włóż `.exe` do osobnego folderu (np.
 `Dokumenty\Promo Music Mass Previewer` - program trzyma ustawienia obok siebie),
@@ -123,9 +125,11 @@ Wklejasz go i klikasz **Aktywuj**. Klucz działa tylko na tym komputerze. Aktywa
 odbywa się offline: program nie łączy się z żadnym serwerem i niczego o Tobie nie
 wysyła. Przeniesienie `.exe` albo aktualizacja do nowej wersji zachowują aktywację.
 
-**Aktualizacja:** pobierz nowy `.exe` i podmień nim stary w tym samym folderze -
-ustawienia, oceny i aktywacja zostają. Swoją wersję widzisz na dole panelu, a ten
-sam numer jest we właściwościach pliku (zakładka Szczegóły) i w nazwie wydania.
+**Aktualizacja:** pobierz nowy `.exe`, włóż go do tego samego folderu co stary, a
+stary usuń (wersja jest w nazwie pliku, więc się nie nadpiszą) - ustawienia, oceny i
+aktywacja zostają. Jeśli masz skrót, wskaż w nim nowy plik. Swoją wersję widzisz w
+nazwie pliku, na dole panelu, we właściwościach pliku (zakładka Szczegóły) i w nazwie
+wydania.
 
 **Windows ostrzega przed plikiem:** `.exe` nie jest podpisany cyfrowo. Przy
 SmartScreen kliknij **Więcej informacji** -> **Uruchom mimo to**. Inteligentna
