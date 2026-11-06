@@ -44,6 +44,14 @@ only activation is possible.
 The activation window follows the `language` setting in `config.json` (English by
 default).
 
+### Updating
+
+Download the new exe from
+[Releases](https://github.com/kicikk/promo-music-mass-previewer-releases/releases/latest)
+and replace the old one in the same folder. Settings, ratings and the activation stay.
+Your version is shown at the bottom of the panel (e.g. `v20261106_b5.8`); the list of
+changes is in [CHANGELOG.md](CHANGELOG.md).
+
 ### Windows warns about or blocks the .exe
 
 The exe is not digitally signed - a code signing certificate costs several hundred
@@ -283,11 +291,6 @@ Restart the app after changing the config.
 
 ---
 
-The version is shown at the bottom of the panel (e.g. v20260603_b0.7).
-
-Developed by Maciej Kiciński (kicikk), powered by proggcast.pl
-(c) proggcast.pl
-
 ## 11. Spotify mode (Premium required)
 
 Preview the Spotify catalogue the same way you preview files: the app skips through
@@ -358,4 +361,14 @@ but with no completeness guarantee and a cap of 1000 tracks per artist.
   copy.
 - File operations (sorting into subfolders, deleting, auto-cull, M3U export) are off in
   Spotify mode - there is no file to move. Your ratings are still recorded in the CSV.
-- The first load of a large discography takes ~20 seconds; after that it comes from the cache (see above).
+- The first load of a large discography takes ~20 seconds; after that it comes from
+  the cache (see above).
+
+---
+
+The version is shown at the bottom of the panel (e.g. `v20261106_b5.8`); the list of
+changes is in [CHANGELOG.md](CHANGELOG.md).
+
+Developed by Maciej Kiciński (kicikk), powered by [proggcast.pl](https://www.proggcast.pl)
+· [Proggcast on YouTube](https://www.youtube.com/@proggcastpl)
+(c) proggcast.pl
