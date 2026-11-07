@@ -18,6 +18,8 @@ artist's whole discography, an album or a playlist the same way.
 Current version: **v20261106_b6.0** (2026-11-06) · Windows 10/11, 64-bit, a single `.exe`,
 no installation · [What's new](CHANGELOG.md) · [All releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
+**macOS (beta):** [Apple Silicon (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b6.0/Promo_Music_Mass_Previewer_v20261106_b6.0_mac_arm64.dmg) · [Intel (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b6.0/Promo_Music_Mass_Previewer_v20261106_b6.0_mac_x86_64.dmg) - see [macOS notes](MAC.md) before the first launch.
+
 ## Features
 
 - **Smart skip** based on loudness analysis: finds the end of the intro, the drops and
@@ -113,6 +115,8 @@ całą dyskografię artysty, album albo playlistę.
 
 Aktualna wersja: **v20261106_b6.0** (2026-11-06) · Windows 10/11, 64-bit, jeden plik `.exe`,
 bez instalacji · [Co nowego](CHANGELOG.md) · [Wszystkie wydania](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
+
+**macOS (beta, jeszcze nietestowana na prawdziwym Macu):** [Apple Silicon (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b6.0/Promo_Music_Mass_Previewer_v20261106_b6.0_mac_arm64.dmg) · [Intel (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261106_b6.0/Promo_Music_Mass_Previewer_v20261106_b6.0_mac_x86_64.dmg) - przed pierwszym uruchomieniem zajrzyj do [MAC.md](MAC.md#po-polsku).
 
 **Pierwsze uruchomienie:** włóż `.exe` do osobnego folderu (np.
 `Dokumenty\Promo Music Mass Previewer` - program trzyma ustawienia obok siebie),

@@ -15,3 +15,5 @@ First public release.
 - Spotify mode (Premium): an artist's whole discography, an album or a playlist,
   previewed and rated like files.
 - English and Polish interface.
+- macOS version (beta, added 2026-11-07): `.dmg` for Apple Silicon and for Intel,
+  macOS 11 or newer - see [MAC.md](https://github.com/kicikk/PromoMusicMassPreviewer/blob/main/MAC.md).
