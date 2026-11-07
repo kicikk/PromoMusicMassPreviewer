@@ -65,6 +65,22 @@ Spotify files and the activation. In Finder: **Go -> Go to Folder…** and paste
 
 Everything else works as described in the [manual](MANUAL.md).
 
+## If the app does not start
+
+Send the start-up log to maciej@proggcast.pl right after the failed attempt (it is
+overwritten on every start):
+
+1. In Finder choose **Go -> Go to Folder…** (Shift-Command-G), paste
+   `~/Library/Application Support/PromoMusicMassPreviewer` and press Return. (The
+   Library folder is hidden in Finder, but Go to Folder opens it anyway.)
+2. Attach `startup.log` to the e-mail, and `promo_player.log` too if it is there.
+
+Or copy both logs to the Desktop with one Terminal command:
+
+```bash
+cp ~/Library/Application\ Support/PromoMusicMassPreviewer/*.log ~/Desktop/
+```
+
 ---
 
 ## Po polsku
@@ -125,3 +141,19 @@ Spotify i aktywacja. W Finderze: **Idź -> Idź do folderu…** i wklej ścieżk
   literowe w `config.json` (np. `"vol_up": "ctrl+alt+="`).
 
 Cała reszta działa jak w [instrukcji](INSTRUKCJA.md).
+
+### Gdy program nie startuje
+
+Wyślij log startu na maciej@proggcast.pl zaraz po nieudanej próbie (jest nadpisywany
+przy każdym uruchomieniu):
+
+1. W Finderze wybierz **Idź -> Idź do folderu…** (Shift-Command-G), wklej
+   `~/Library/Application Support/PromoMusicMassPreviewer` i naciśnij Return. (Folder
+   Biblioteka jest w Finderze ukryty, ale „Idź do folderu” i tak go otworzy.)
+2. Dołącz do maila plik `startup.log`, a jeśli jest, także `promo_player.log`.
+
+Albo skopiuj oba logi na Biurko jedną komendą w Terminalu:
+
+```bash
+cp ~/Library/Application\ Support/PromoMusicMassPreviewer/*.log ~/Desktop/
+```

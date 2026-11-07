@@ -2,6 +2,15 @@
 
 Newest first. Download: [latest release](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 
+## v20261107_b6.1 - 2026-11-07
+
+- macOS (beta): fixed the app quitting right after start (the icon only bounced in
+  the Dock). The global hotkey listener read the keyboard layout outside the main
+  thread, which macOS 14 and newer does not allow.
+- macOS: readable buttons and larger text in the activation window.
+- If the program does not start, it now writes `startup.log`, which helps find the
+  cause - see "If the app does not start" in [MAC.md](https://github.com/kicikk/PromoMusicMassPreviewer/blob/main/MAC.md).
+
 ## v20261106_b6.0 - 2026-11-06
 
 First public release.

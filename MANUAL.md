@@ -12,7 +12,7 @@ own thing and react with global hotkeys or from the panel.
 
 Windows 10/11, 64-bit.
 
-1. Download `Promo_Music_Mass_Previewer_v20261106_b6.0.exe` from
+1. Download `Promo_Music_Mass_Previewer_v20261107_b6.1.exe` from
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) and a log file next to the exe, so the folder

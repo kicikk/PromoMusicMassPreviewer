@@ -12,7 +12,7 @@ globalnymi skrótami albo z panelu.
 
 Windows 10/11, 64-bit.
 
-1. Pobierz `Promo_Music_Mass_Previewer_v20261106_b6.0.exe` z
+1. Pobierz `Promo_Music_Mass_Previewer_v20261107_b6.1.exe` z
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Włóż go do osobnego folderu, np. `Dokumenty\Promo Music Mass Previewer`. Program
    trzyma ustawienia (`config.json`) i plik logu obok `.exe`, więc folder musi być
