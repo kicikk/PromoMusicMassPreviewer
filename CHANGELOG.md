@@ -2,6 +2,15 @@
 
 Newest first. Download: [latest release](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 
+## v20261108_b6.2 - 2026-11-08
+
+- **NO now moves the file to the `to_delete` subfolder right away by default**, as the
+  manual describes. On a fresh install it only marked the track, so "Purge deleted" had
+  nothing to remove. Nothing is lost: files in `to_delete` can be moved back until you
+  press "Purge deleted". If you already ran an earlier version, your saved setting stays -
+  set `"delete_on_no": true` in `config.json` to get the new behaviour.
+- macOS (beta): moving and purging files is now tested on a real build.
+
 ## v20261107_b6.1 - 2026-11-07
 
 - macOS (beta): fixed the app quitting right after start (the icon only bounced in

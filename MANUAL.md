@@ -12,7 +12,7 @@ own thing and react with global hotkeys or from the panel.
 
 Windows 10/11, 64-bit.
 
-1. Download `Promo_Music_Mass_Previewer_v20261107_b6.1.exe` from
+1. Download `Promo_Music_Mass_Previewer_v20261108_b6.2.exe` from
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) and a log file next to the exe, so the folder
@@ -141,7 +141,7 @@ that spot and skips forward normally (it does not jump backward).
 - **YES** - keep it. If `move_on_yes` is enabled, the file is moved to the
   `selected` subfolder immediately.
 - **MAYBE** - an in-between mark (also counts as kept).
-- **NO** - rejects it. If `delete_on_no` is on, the file is removed right away
+- **NO** - rejects it. With `delete_on_no` on (the default), the file is removed right away
   (see "How deleting works" below).
 
 Marks are saved on the fly to `promo_player_marks.csv` in the music folder.
@@ -280,7 +280,7 @@ The `config.json` file lives next to the exe (tray menu -> Open config.json). Th
 | snippet_sec / gap_sec | sample length / skip (Standard mode) |
 | drop_lead_sec | seconds before the drop the marker is placed (default 4) |
 | move_on_yes / yes_dir | YES moves the file to a subfolder (default "selected") |
-| delete_on_no | NO removes the current file immediately (per delete_mode) |
+| delete_on_no | NO removes the current file immediately (per delete_mode; default true) |
 | delete_mode | "folder" (move to to_delete, default) or "recycle" (straight delete) |
 | to_delete_dir | name of the soft-delete folder (default "to_delete") |
 | delete_to_recycle_bin | true = Recycle Bin (recoverable), false = permanent |

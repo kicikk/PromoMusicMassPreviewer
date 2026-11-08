@@ -12,7 +12,7 @@ globalnymi skrótami albo z panelu.
 
 Windows 10/11, 64-bit.
 
-1. Pobierz `Promo_Music_Mass_Previewer_v20261107_b6.1.exe` z
+1. Pobierz `Promo_Music_Mass_Previewer_v20261108_b6.2.exe` z
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Włóż go do osobnego folderu, np. `Dokumenty\Promo Music Mass Previewer`. Program
    trzyma ustawienia (`config.json`) i plik logu obok `.exe`, więc folder musi być
@@ -143,7 +143,7 @@ tego miejsca i normalnie skipuje do przodu (nie cofa się).
 - **YES** - zachowujesz. Jeśli włączone `move_on_yes`, plik od razu trafia do
   podfolderu `selected`.
 - **MAYBE** - oznaczenie pośrednie (też liczone jako zachowane).
-- **NO** - odrzucasz. Jeśli włączone `delete_on_no`, plik jest od razu usuwany
+- **NO** - odrzucasz. Przy włączonym `delete_on_no` (domyślnie), plik jest od razu usuwany
   (patrz „Jak działa kasowanie" niżej).
 
 Oceny zapisują się na bieżąco do pliku `promo_player_marks.csv` w folderze z muzyką.
@@ -282,7 +282,7 @@ Najważniejsze:
 | snippet_sec / gap_sec | długość próbki / przeskok (tryb Standard) |
 | drop_lead_sec | ile sekund przed dropem ustawia się marker (domyślnie 4) |
 | move_on_yes / yes_dir | YES przenosi plik do podfolderu (domyślnie "selected") |
-| delete_on_no | NO usuwa bieżący plik od razu (wg delete_mode) |
+| delete_on_no | NO usuwa bieżący plik od razu (wg delete_mode; domyślnie true) |
 | delete_mode | "folder" (przenieś do to_delete, domyślnie) lub "recycle" (od razu) |
 | to_delete_dir | nazwa folderu miękkiego kasowania (domyślnie "to_delete") |
 | delete_to_recycle_bin | true = Kosz (odwracalne), false = trwale |
