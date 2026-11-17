@@ -13,17 +13,19 @@ with global hotkeys: **YES** moves the file to `selected`, **NO** moves it to
 `to_delete`, and the next track starts. With Spotify Premium you can preview an
 artist's whole discography, an album or a playlist the same way.
 
-**[Download Promo_Music_Mass_Previewer_v20261108_b6.2.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261108_b6.2/Promo_Music_Mass_Previewer_v20261108_b6.2.exe)**
+**[Download Promo_Music_Mass_Previewer_v20261117_b6.3.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261117_b6.3/Promo_Music_Mass_Previewer_v20261117_b6.3.exe)**
 
-Current version: **v20261108_b6.2** (2026-11-08) · Windows 10/11, 64-bit, a single `.exe`,
+Current version: **v20261117_b6.3** (2026-11-17) · Windows 10/11, 64-bit, a single `.exe`,
 no installation · [What's new](CHANGELOG.md) · [All releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
-**macOS (beta):** [Apple Silicon (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261108_b6.2/Promo_Music_Mass_Previewer_v20261108_b6.2_mac_arm64.dmg) · [Intel (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261108_b6.2/Promo_Music_Mass_Previewer_v20261108_b6.2_mac_x86_64.dmg) - see [macOS notes](MAC.md) before the first launch.
+**macOS (beta):** [Apple Silicon (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261117_b6.3/Promo_Music_Mass_Previewer_v20261117_b6.3_mac_arm64.dmg) · [Intel (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261117_b6.3/Promo_Music_Mass_Previewer_v20261117_b6.3_mac_x86_64.dmg) - see [macOS notes](MAC.md) before the first launch.
 
 ## Features
 
 - **Smart skip** based on loudness analysis: finds the end of the intro, the drops and
   the outro, and never cuts a drop off.
+- **BPM and key** (Camelot, e.g. `124 BPM  5A`) for every track, in the panel, the
+  overlay and the ratings CSV - measured from the same analysis, no extra pass.
 - **Four scan modes** (Standard / Shorter / Longer / Middle) with a "time saved"
   indicator.
 - **Waveform** with the preview plan marked on it; click to seek.
@@ -41,7 +43,7 @@ Formats: mp3, wav, flac, ogg, aiff, m4a.
 
 ## Getting started
 
-1. Download `Promo_Music_Mass_Previewer_v20261108_b6.2.exe` from
+1. Download `Promo_Music_Mass_Previewer_v20261117_b6.3.exe` from
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) next to the exe, so the folder must be writable
@@ -108,15 +110,16 @@ the release here, so you can always tell which one you have.
 Szybkie przesłuchiwanie dużych ilości muzyki promo. Player gra w tle, sam pomija
 intro i outro, gra krótkie próbki przez cały utwór (z wejściem kilka sekund przed
 każdym dropem), a Ty oceniasz globalnymi skrótami: **YES** przenosi plik do
-`selected`, **NO** do `to_delete`. Z kontem Spotify Premium tak samo przesłuchasz
-całą dyskografię artysty, album albo playlistę.
+`selected`, **NO** do `to_delete`. Przy każdym utworze widzisz jego BPM i tonację
+(zapis Camelot), zapisywane też w pliku ocen. Z kontem Spotify Premium tak samo
+przesłuchasz całą dyskografię artysty, album albo playlistę.
 
-**[Pobierz Promo_Music_Mass_Previewer_v20261108_b6.2.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261108_b6.2/Promo_Music_Mass_Previewer_v20261108_b6.2.exe)**
+**[Pobierz Promo_Music_Mass_Previewer_v20261117_b6.3.exe](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261117_b6.3/Promo_Music_Mass_Previewer_v20261117_b6.3.exe)**
 
-Aktualna wersja: **v20261108_b6.2** (2026-11-08) · Windows 10/11, 64-bit, jeden plik `.exe`,
+Aktualna wersja: **v20261117_b6.3** (2026-11-17) · Windows 10/11, 64-bit, jeden plik `.exe`,
 bez instalacji · [Co nowego](CHANGELOG.md) · [Wszystkie wydania](https://github.com/kicikk/PromoMusicMassPreviewer/releases)
 
-**macOS (beta, jeszcze nietestowana na prawdziwym Macu):** [Apple Silicon (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261108_b6.2/Promo_Music_Mass_Previewer_v20261108_b6.2_mac_arm64.dmg) · [Intel (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261108_b6.2/Promo_Music_Mass_Previewer_v20261108_b6.2_mac_x86_64.dmg) - przed pierwszym uruchomieniem zajrzyj do [MAC.md](MAC.md#po-polsku).
+**macOS (beta, jeszcze nietestowana na prawdziwym Macu):** [Apple Silicon (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261117_b6.3/Promo_Music_Mass_Previewer_v20261117_b6.3_mac_arm64.dmg) · [Intel (.dmg)](https://github.com/kicikk/PromoMusicMassPreviewer/releases/download/v20261117_b6.3/Promo_Music_Mass_Previewer_v20261117_b6.3_mac_x86_64.dmg) - przed pierwszym uruchomieniem zajrzyj do [MAC.md](MAC.md#po-polsku).
 
 **Pierwsze uruchomienie:** włóż `.exe` do osobnego folderu (np.
 `Dokumenty\Promo Music Mass Previewer` - program trzyma ustawienia obok siebie),

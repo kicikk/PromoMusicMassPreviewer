@@ -12,7 +12,7 @@ globalnymi skrótami albo z panelu.
 
 Windows 10/11, 64-bit.
 
-1. Pobierz `Promo_Music_Mass_Previewer_v20261108_b6.2.exe` z
+1. Pobierz `Promo_Music_Mass_Previewer_v20261117_b6.3.exe` z
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Włóż go do osobnego folderu, np. `Dokumenty\Promo Music Mass Previewer`. Program
    trzyma ustawienia (`config.json`) i plik logu obok `.exe`, więc folder musi być
@@ -79,7 +79,8 @@ Od góry:
 - **Nazwa utworu** (na niebiesko).
 - **Linijka stanu**: tryb (np. `smart 5x`), pozycja `0:50 / 3:48`, numer w kolejce
   `1/1` oraz `saves 61%` - czyli ile czasu oszczędzasz w tym trybie w stosunku do
-  pełnego odsłuchu.
+  pełnego odsłuchu. Po analizie utworu: tempo i tonacja, np. `124 BPM  5A` (patrz
+  „BPM i tonacja” niżej). Pokazuje je też nakładka w rogu.
 - **Waveform** (wykres głośności całego utworu) - patrz punkt 4.
 - **Pasek postępu** pod waveformem - klikalny (przewijanie myszką).
 - **Transport**: `|< Prev` (poprzedni), `-10s`, `Pause/Play`, `+10s`, `Next >|`
@@ -146,7 +147,23 @@ tego miejsca i normalnie skipuje do przodu (nie cofa się).
 - **NO** - odrzucasz. Przy włączonym `delete_on_no` (domyślnie), plik jest od razu usuwany
   (patrz „Jak działa kasowanie" niżej).
 
-Oceny zapisują się na bieżąco do pliku `promo_player_marks.csv` w folderze z muzyką.
+Oceny zapisują się na bieżąco do pliku `promo_player_marks.csv` w folderze z muzyką,
+razem z BPM i tonacją utworu (kolumny `bpm`, `key`), gdy analiza jest już gotowa.
+
+### BPM i tonacja
+
+Ta sama analiza, która szuka intra, dropów i outra, mierzy też tempo i tonację - z tego
+samego zdekodowanego dźwięku, więc plik nie jest czytany drugi raz. Tonacja jest w
+zapisie Camelot (np. `8A` = A-moll, `8B` = C-dur), używanym do miksowania harmonicznego.
+
+- **BPM** jest pewne dla muzyki klubowej ze stopą na każdą ćwierćnutę. Gdy utwór leży
+  na granicy dwóch temp (np. 85 i 128), wygrywa tempo klubowe.
+- **Tonacja** to szacunek, jak szybka analiza w programach DJ-skich: dźwięk podstawowy
+  jest zwykle trafiony, ale przy mocnym basie dur i moll tego samego dźwięku potrafią
+  się zamienić (np. `5A` Cm pokazane jako `8B` C). Przed układaniem setu sprawdź uchem.
+- Oba pojawiają się po analizie utworu (chwilę po starcie; następny utwór jest
+  analizowany z wyprzedzeniem). Wymagają włączonego inteligentnego skipu (`smart_skip`,
+  domyślnie włączony). W trybie Spotify niedostępne - Spotify nie udostępnia dźwięku.
 
 Uwaga: przy domyślnych ustawieniach YES od razu idzie do `selected`, a NO / auto-cull
 do `to_delete` - więc większość segregacji dzieje się w trakcie oceniania. Poniższe

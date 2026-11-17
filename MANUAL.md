@@ -12,7 +12,7 @@ own thing and react with global hotkeys or from the panel.
 
 Windows 10/11, 64-bit.
 
-1. Download `Promo_Music_Mass_Previewer_v20261108_b6.2.exe` from
+1. Download `Promo_Music_Mass_Previewer_v20261117_b6.3.exe` from
    [Releases](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 2. Put it in a folder of its own, e.g. `Documents\Promo Music Mass Previewer`. The app
    keeps its settings (`config.json`) and a log file next to the exe, so the folder
@@ -78,6 +78,8 @@ From the top:
 - **Track name** (in blue).
 - **Status line**: mode (e.g. `smart 5x`), position `0:50 / 3:48`, queue number
   `1/1`, and `saves 61%` - how much time you save in this mode versus a full listen.
+  Once the track is analysed: tempo and key, e.g. `124 BPM  5A` (see "BPM and key"
+  below). The corner overlay shows them too.
 - **Waveform** (loudness graph of the whole track) - see section 4.
 - **Progress bar** under the waveform - clickable (seek with the mouse).
 - **Transport**: `|< Prev`, `-10s`, `Pause/Play`, `+10s`, `Next >|`.
@@ -144,7 +146,25 @@ that spot and skips forward normally (it does not jump backward).
 - **NO** - rejects it. With `delete_on_no` on (the default), the file is removed right away
   (see "How deleting works" below).
 
-Marks are saved on the fly to `promo_player_marks.csv` in the music folder.
+Marks are saved on the fly to `promo_player_marks.csv` in the music folder, together
+with the track's BPM and key (columns `bpm`, `key`) when the analysis is ready.
+
+### BPM and key
+
+The same analysis that finds the intro, drops and outro also measures the tempo and
+the key - from the same decoded audio, so it costs no extra pass over the file. The
+key is shown in Camelot notation (e.g. `8A` = A minor, `8B` = C major), the one used
+for harmonic mixing.
+
+- **BPM** is reliable for four-on-the-floor club music. If a track sits on the line
+  between two tempos (e.g. 85 vs 128), the club tempo wins.
+- **Key** is an estimate, like the quick analysis in DJ software: the root note is
+  usually right, but major and minor of the same root can get swapped (e.g. `5A` Cm
+  shown as `8B` C) in tracks with a heavy bass. Check by ear before you build a set
+  on it.
+- Both appear once the track is analysed (a moment after it starts; the next track is
+  analysed in advance). They need the smart skip on (`smart_skip`, on by default).
+  Not available in Spotify mode - Spotify does not expose the audio.
 
 Note: with the defaults, YES already moves to `selected`, NO / auto-cull already move
 to `to_delete` - so most sorting happens as you rate. The batch actions below are only

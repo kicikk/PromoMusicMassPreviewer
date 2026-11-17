@@ -2,6 +2,16 @@
 
 Newest first. Download: [latest release](https://github.com/kicikk/PromoMusicMassPreviewer/releases/latest).
 
+## v20261117_b6.3 - 2026-11-17
+
+- **BPM and key for every track**, e.g. `124 BPM  5A` (Camelot), in the panel, the corner
+  overlay and the ratings CSV (new `bpm` and `key` columns). Measured in the same analysis
+  as the intro/drop detection, from the same decoded audio - no extra pass over the file.
+- BPM is reliable for club music. The key is an estimate: the root note is usually right,
+  but major and minor of the same root can get swapped in bass-heavy tracks - see "BPM and
+  key" in the manual.
+- Tracks analysed by an earlier version are analysed again once, when they are played.
+
 ## v20261108_b6.2 - 2026-11-08
 
 - **NO now moves the file to the `to_delete` subfolder right away by default**, as the
